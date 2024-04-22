@@ -1,13 +1,183 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.page-container {
+  padding: 14px 20px;
+  margin: 40px 0;
+  width: 300px;
+  height: 550px;
+  border: 2px solid lightgray;
+  position: relative;
+}
+
+.home-page-container {
+  position: absolute;
+  bottom: 14px;
+}
+
+.Heading {
+  color: #1D2226;
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-family: Rubik;
+}
+
+.info {
+  color: #74777B;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.colored-button {
+  margin-top: 5px;
+  width: 94%;
+  padding: 8px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #6C25FF;
+}
+
+.colored-button a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-fade {
+  margin-top: 5px;
+  width: 94%;
+  padding: 8px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #CEBAFB;
+}
+
+.btn-fade a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.input-container {
+  margin-top: 30px;
+}
+
+.input-box-container {
+  position: absolute;
+  width: 85%;
+}
+
+.input-box {
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 6px;
+  padding: 9px 10px;
+  color: rgb(60, 60, 60);
+  width: 100%;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.input-box::placeholder {
+  color: rgb(174, 174, 174);
+}
+
+.input-box:focus {
+  border-color: rgb(120, 117, 117);
+  outline: none;
+}
+
+.label-box {
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  background-color: #fff;
+  padding: 0 5px;
+  color: blue;
+  font-size: 12px;
+}
+
+#mandtory {
+  color: red;
+}
+
+.btn-login {
+  margin-top: 9px;
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #6C25FF;
+}
+
+.btn-login a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-container {
+  width: 86%;
+  position: absolute;
+  bottom: 12px;
+}
+
+.agency {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.radio {
+  margin: 10px 10px 0 10px;
+  color: blue;
+}
+
+.profile-head {
+  font-size: 25px;
+  font-family: Rubik;
+}
+
+.profile-info {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #F7F8F9;
+}
+
+.profile-img {
+  display: inline-block;
+  width: 40%;
+}
+
+.profile-name {
+  display: inline-block;
+  font-size: 17px;
+  width: 60%;
+  position: absolute;
+}
+
+.profile-description {
+  width: 100%;
+  color: black;
+  font-family: normal;
+  font-size: 14px;
+  padding-bottom: 5px;
+  border-bottom: 2px dotted rgb(190, 189, 189);
+}
+
+.icon {
+  position: relative;
+  top: -36px;
+  right: -68px;
+}
+
+.name {
+  margin-top: 7px;
+  font-weight: bolder;
 }
